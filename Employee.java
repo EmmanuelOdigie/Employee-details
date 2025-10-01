@@ -30,6 +30,8 @@ public class Employee implements Cloneable {
     public void setName(String name) {
         if (name == null) {
             System.out.println("Please input your name: ");
+        } else if (name != null) {
+            System.out.println("Name entered as been stored in our system, thank you");
         } else {
             System.out.println("Please try again, make sure you input what's required");
         }
